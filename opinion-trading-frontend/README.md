@@ -103,11 +103,6 @@ All API calls and WebSocket events are logged using Winston for better monitorin
 ## Deployment
 The backend is ready for deployment on cloud providers such as AWS, Render, or Heroku. Ensure to set the environment variables in the production environment.
 
-## Contributing
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
-
-## License
-This project is licensed under the MIT License.
 
 ## Architecture and Data Flow
 The backend is built using Node.js and Express.js, with MongoDB as the database. The application uses JWT for authentication and role-based access control for admin functionalities. WebSockets are used for real-time updates on events and trades. The backend integrates with external sports data APIs to fetch live scores, events, and odds.
